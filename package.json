@@ -1,0 +1,26 @@
+{
+  "name": "altcheck",
+  "version": "1.0.0",
+  "description": "Bookmarklet to check alt attribute of images.",
+  "main": "altcheck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "uglifyjs --compress --mangle --output altcheck.min.js altcheck.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todays-mitsui/altcheckjs.git"
+  },
+  "keywords": [
+    "bookmarklet"
+  ],
+  "author": "Mitsui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todays-mitsui/altcheckjs/issues"
+  },
+  "homepage": "https://github.com/todays-mitsui/altcheckjs#readme",
+  "devDependencies": {
+    "uglify-js": "git+https://github.com/mishoo/UglifyJS2.git#harmony"
+  }
+}
